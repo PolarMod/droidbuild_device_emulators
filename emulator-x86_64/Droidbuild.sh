@@ -1,6 +1,6 @@
-setup_target emulator-x86_64
+setup_target emulator_x86_64
 
-target_emulator-x86(){
+target_emulator_x86_64(){
     LOCAL_PATH=$(dirname $BASH_SOURCE)
     # Clean build variables
     include $BASEDIR/droidbuild/build_vars.sh
@@ -10,7 +10,7 @@ target_emulator-x86(){
     # Set architecture for emulator
     TARGET_ARCH="x86_64"
     # Codename of device
-    TARGET_CODENAME="emulator-x86_64"
+    TARGET_CODENAME="emulator_x86_64"
     # Fully qualified model name
     TARGET_FULLNAME="Emulator(x86_64)"
     # Build type
