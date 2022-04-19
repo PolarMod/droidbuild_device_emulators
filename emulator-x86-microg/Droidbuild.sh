@@ -1,6 +1,6 @@
 setup_target emulator_x86_microg
 
-target_emulator_x86_64_microg(){
+target_emulator_x86_microg(){
     LOCAL_PATH=$(dirname $BASH_SOURCE)
     # Clean build variables
     include $BASEDIR/droidbuild/build_vars.sh
